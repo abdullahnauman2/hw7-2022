@@ -29,10 +29,10 @@ document.querySelector('#faster').addEventListener("click", function () {
 
 document.querySelector('#skip').addEventListener("click", function () {
 	console.log("Original location " + video.currentTime)
-	if ((video.duration - video.currentTime) <= 15) {
+	if ((video.duration - video.currentTime) <= 10) {
 		video.currentTime = 0;
 	} else {
-		video.currentTime += 15;
+		video.currentTime += 10;
 	}
 	console.log("New location " + video.currentTime)
 });
