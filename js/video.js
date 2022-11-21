@@ -18,12 +18,12 @@ document.querySelector('#pause').addEventListener("click", function () {
 });
 
 document.querySelector('#slower').addEventListener("click", function () {
-	video.playbackRate *= 0.95;
+	video.playbackRate *= 0.9;
 	console.log("New speed " + video.playbackRate);
 });
 
 document.querySelector('#faster').addEventListener("click", function () {
-	video.playbackRate /= 0.95;
+	video.playbackRate /= 0.9;
 	console.log("New speed " + video.playbackRate);
 });
 
@@ -60,3 +60,5 @@ document.querySelector('#vintage').addEventListener("click", function() {
 document.querySelector('#orig').addEventListener("click", function() {
 	video.className = "video";
 });
+
+
