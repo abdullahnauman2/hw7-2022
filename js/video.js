@@ -3,7 +3,7 @@ var video = document.querySelector('.video');
 window.addEventListener("load", function () {
 	console.log("Good job opening the window");
 	video.setAttribute("autoplay", "false");
-	video.removeAttribute("loop");3
+	video.removeAttribute("loop");
 });
 
 document.querySelector('#play').addEventListener("click", function () {
